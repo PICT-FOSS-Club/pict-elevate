@@ -50,7 +50,7 @@ const Navbar = () => {
       {(toggleMenu || screenWidth > 975) && (
           <ul className='list' id='list'>
             <li className='links'>
-                <Link className='l' onClick={Reload}>
+                <Link to="/" className='l' onClick={Reload}>
                   <img src={home} alt="" width="40px"/>Home</Link>
             </li>
             {/* <li className='links'>
