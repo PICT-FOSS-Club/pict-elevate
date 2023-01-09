@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+  .App {
+    text-align: center;
+    height: 30vh;
+    background-color: #0a0a0a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .clock {
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(270deg, #051817, #0e3839);
+    height: 150px;
+    width: 380px;
+    /* color: #06f1f6; */
+    color: yellow;
+    text-shadow: 1px 1px 7px;
+    border-radius: 15px;
+    /* border: 2px solid silver; */
+    box-shadow: 0 0 5px 5px orange;
+  }
+  
+  .clock section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.9rem;
+  }
+  .clock section p {
+    font-size: 2.6rem;
+    font-family: 'Orbitron', sans-serif;
+  }
+  .clock section small {
+    color: silver;
+    text-shadow: none;
+  }
+
+@media screen and (max-width: 780px) {
+    .clock
+    {
+        width: 340px;
+        height: 130px;
+    }
+    .clock section p
+    {
+        font-size: 2.3rem;
+    }
+}
+@media screen and (max-width: 550px) {
+    .clock
+    {
+        width: 300px;
+        height: 110px;
+    }
+    .clock section p
+    {
+        font-size: 1.9rem;
+    }
+}
+@media screen and (max-width: 424px) {
+    .clock
+    {
+        width: 300px;
+        height: 110px;
+    }
+    .clock section p
+    {
+        font-size: 1.8rem;
+    }
+}
+@media screen and (max-width: 360px) {
+    .clock
+    {
+        width: 270px;
+        height: 100px;
+    }
+    .clock section p
+    {
+        font-size: 1.5rem;
+    }
+    .clock section
+    {
+        padding: 0.6rem;
+    }
+}
+
+@media screen and (max-width: 320px)
+{
+    .clock
+    {
+        width: 250px;
+        height: 90px;
+    }
+    .clock section p
+    {
+        font-size: 1.3rem;
+    }
+    .clock section
+    {
+        padding: 0.4rem;
+    }
+}
+
