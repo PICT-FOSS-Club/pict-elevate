@@ -9,7 +9,7 @@ import Team from './Pages/Team/Team';
 function App() {
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="Team" element={<Team/>} />
