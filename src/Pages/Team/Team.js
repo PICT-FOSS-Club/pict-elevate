@@ -4,6 +4,7 @@ import instagram from '../../images/instagram.png';
 import LinkedIn from '../../images/linkedin.png';
 import Digvijay from '../../images/Digvijay.webp';
 import Ashutosh from '../../images/Ashutosh.jpeg';
+import Vinayak from '../../images/Vinayak.JPG';
 import Fade from 'react-reveal';
 
 const Team = () => {
@@ -75,6 +76,33 @@ const Team = () => {
       </div>
      </div>
      </Fade>
+
+     <Fade left duration={1700}>
+    <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+      <div className="card">
+        <div className="team-image-wrapper">
+          <img className="team-member-image" src={Vinayak} />
+        </div>
+        <p className="text-blk name">
+          Vinayak Jamadar
+        </p>
+        <p className="text-blk position">
+          Developer
+        </p>
+        {/* <p className="text-blk feature-text">
+          
+        </p> */}
+        <div className="social-icons">
+            <a href="" target="_blank">
+              <img src={instagram} alt="" width="40px" />
+            </a>
+            <a href="https://www.linkedin.com/in/vinayakjamadar/" target="_blank">
+              <img src={LinkedIn} alt="" width="40px" />
+            </a>
+        </div>
+      </div>
+    </div>
+    </Fade>
     </div>
   </div>
   </>

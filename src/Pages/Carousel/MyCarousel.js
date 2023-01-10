@@ -19,7 +19,7 @@ const MyCarousel = () => {
     controls={true}
     indicators={true}>
         <Carousel.Item>
-          <img style={{ maxHeight: "60vh" }} src={p1} className="w-100" />
+          <img style={{ maxHeight: "60vh" }} src={p1} className="w-100" alt="" />
           <Carousel.Caption>
           <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -27,7 +27,7 @@ const MyCarousel = () => {
         </Carousel.Item>
 
         <Carousel.Item>
-          <img style={{ maxHeight: "60vh" }} src={p2} className=" w-100 "/>
+          <img style={{ maxHeight: "60vh" }} src={p2} className=" w-100 " alt=""/>
           <Carousel.Caption>
           <h3>Second slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -35,7 +35,7 @@ const MyCarousel = () => {
         </Carousel.Item>
 
         <Carousel.Item>
-          <img style={{ maxHeight: "60vh" }} src={p3} className=" w-100 "/>
+          <img style={{ maxHeight: "60vh" }} src={p3} className=" w-100" alt=""/>
           <Carousel.Caption>
           <h3>Third slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -43,7 +43,7 @@ const MyCarousel = () => {
         </Carousel.Item>
 
         <Carousel.Item>
-          <img style={{ maxHeight: "60vh" }} src={p4} className="w-100 "/>
+          <img style={{ maxHeight: "60vh" }} src={p4} className="w-100" alt=""/>
           <Carousel.Caption>
           <h3>Fourth slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>

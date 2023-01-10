@@ -38,91 +38,91 @@ const Bcarousel = () => {
     controls={true}
     indicators={true}>
         <Carousel.Item>
-          <img style={{ maxHeight: "60vh" }} src={p1} className=" w-100" />
+          <img style={{ maxHeight: "60vh" }} src={p1} className=" w-100" alt=""/>
         </Carousel.Item>
 
         <Carousel.Item>
-          <img style={{ maxHeight: "60vh" }} src={p2} className=" w-100 "/>
+          <img style={{ maxHeight: "60vh" }} src={p2} className=" w-100 " alt=""/>
         </Carousel.Item>
 
         <Carousel.Item>
-          <img style={{ maxHeight: "60vh" }} src={p3} className=" w-100 "/>
+          <img style={{ maxHeight: "60vh" }} src={p3} className=" w-100 " alt=""/>
         </Carousel.Item>
 
         <Carousel.Item>
-          <img style={{ maxHeight: "60vh" }} src={p4} className=" w-100 "/>
+          <img style={{ maxHeight: "60vh" }} src={p4} className=" w-100 " alt=""/>
         </Carousel.Item>
 
         <Carousel.Item>
-          <img style={{ maxHeight: "60vh" }} src={p5} className=" w-100 "/>
+          <img style={{ maxHeight: "60vh" }} src={p5} className=" w-100 " alt=""/>
         </Carousel.Item>
 
         <Carousel.Item>
-          <img style={{ maxHeight: "60vh" }} src={p6} className="w-100 "/>
+          <img style={{ maxHeight: "60vh" }} src={p6} className="w-100 " alt=""/>
         </Carousel.Item>
 
         <Carousel.Item>
-          <img style={{ maxHeight: "60vh" }} src={p7} className=" w-100 "/>
+          <img style={{ maxHeight: "60vh" }} src={p7} className=" w-100 " alt=""/>
         </Carousel.Item>
 
         <Carousel.Item>
-          <img style={{ maxHeight: "60vh" }} src={p8} className=" w-100 "/>
+          <img style={{ maxHeight: "60vh" }} src={p8} className=" w-100 " alt=""/>
         </Carousel.Item>
 
         <Carousel.Item>
-          <img style={{ maxHeight: "60vh" }} src={p9} className=" w-100 "/>
+          <img style={{ maxHeight: "60vh" }} src={p9} className=" w-100 " alt=""/>
         </Carousel.Item>
 
         <Carousel.Item>
-          <img style={{ maxHeight: "60vh" }} src={p10} className=" w-100 "/>
+          <img style={{ maxHeight: "60vh" }} src={p10} className=" w-100 " alt=""/>
         </Carousel.Item>
 
         <Carousel.Item>
-          <img style={{ maxHeight: "60vh" }} src={p11} className=" w-100 "/>
+          <img style={{ maxHeight: "60vh" }} src={p11} className=" w-100 " alt=""/>
         </Carousel.Item>
 
         <Carousel.Item>
-          <img style={{ maxHeight: "60vh" }} src={p12} className=" w-100 "/>
+          <img style={{ maxHeight: "60vh" }} src={p12} className=" w-100 " alt=""/>
         </Carousel.Item>
 
         <Carousel.Item>
-          <img style={{ maxHeight: "60vh" }} src={p13} className=" w-100 "/>
+          <img style={{ maxHeight: "60vh" }} src={p13} className=" w-100 " alt=""/>
         </Carousel.Item>
 
         <Carousel.Item>
-          <img style={{ maxHeight: "60vh" }} src={p14} className=" w-100 "/>
+          <img style={{ maxHeight: "60vh" }} src={p14} className=" w-100 " alt=""/>
         </Carousel.Item>
 
         <Carousel.Item>
-          <img style={{ maxHeight: "60vh" }} src={p15} className=" w-100 "/>
+          <img style={{ maxHeight: "60vh" }} src={p15} className=" w-100 " alt=""/>
         </Carousel.Item>
 
         <Carousel.Item>
-          <img style={{ maxHeight: "60vh" }} src={p16} className=" w-100 "/>
+          <img style={{ maxHeight: "60vh" }} src={p16} className=" w-100 " alt=""/>
         </Carousel.Item>
 
         <Carousel.Item>
-          <img style={{ maxHeight: "60vh" }} src={p17} className=" w-100 "/>
+          <img style={{ maxHeight: "60vh" }} src={p17} className=" w-100 " alt=""/>
         </Carousel.Item>
 
         <Carousel.Item>
-          <img style={{ maxHeight: "60vh" }} src={p18} className=" w-100 "/>
+          <img style={{ maxHeight: "60vh" }} src={p18} className=" w-100 " alt=""/>
         </Carousel.Item>
 
         <Carousel.Item>
-          <img style={{ maxHeight: "60vh" }} src={p19} className=" w-100 "/>
+          <img style={{ maxHeight: "60vh" }} src={p19} className=" w-100 " alt=""/>
         </Carousel.Item>
 
         <Carousel.Item>
-          <img style={{ maxHeight: "60vh" }} src={p20} className="w-100 "/>
+          <img style={{ maxHeight: "60vh" }} src={p20} className="w-100 " alt=""/>
         </Carousel.Item>
 
         <Carousel.Item>
-          <img style={{ maxHeight: "60vh" }} src={p21} className=" w-100 "/>
+          <img style={{ maxHeight: "60vh" }} src={p21} className=" w-100 " alt=""/>
         </Carousel.Item>
 
         <Carousel.Item>
-          <img style={{ maxHeight: "60vh" }} src={p22} className=" w-100"/>
+          <img style={{ maxHeight: "60vh" }} src={p22} className=" w-100" alt=""/>
         </Carousel.Item>
 
       </Carousel>

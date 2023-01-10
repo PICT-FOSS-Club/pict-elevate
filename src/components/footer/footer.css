@@ -61,7 +61,7 @@
     color: #ccc;
 }
 
-.footer-category li a {
+.footer-category li span{
     font-size: 13px;
     line-height: 30px;
     color: #ccc;

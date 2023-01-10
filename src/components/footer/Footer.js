@@ -52,12 +52,12 @@ const Footer = () => {
             <h3>CONTACT US ON</h3>
             <ul className="footer-category">
               <button className='endbtn' onClick={openTeam}>Our Team</button>
-              <li><a href=''>Digvijay Shingare: +91 8485006432</a>
+              <li><span>Digvijay Shingare: +91 8485006432</span>
               </li>
-              <li><a href=''>Ashutosh Birajdar: +91 9561432556</a>
+              <li><span>Ashutosh Birajdar: +91 9561432556</span>
               </li>
-              {/* <li><a href=""></a>
-              </li> */}
+              <li><span>Vinayak Jamadar: +91 7020563855</span>
+              </li>
             </ul>
           </div>
         </div>
