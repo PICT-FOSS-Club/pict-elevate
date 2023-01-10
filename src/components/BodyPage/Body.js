@@ -33,7 +33,7 @@ const Body = () => {
     <>
     <div className="body">
       <Navbar/>
-     <div className="containe1" id="home">
+      <div className="containe1" id="home">
       <div className="content">
         <div  className="contimg"><img src={pictlogo} alt="" width="180px"/></div>
         <div className="mainhead"><h1>SCTR's</h1></div>
@@ -85,14 +85,14 @@ const Body = () => {
       <div className="Events">
          <div className="eventlinks">
           <Fade left duration={1800}>
-            <Link to="/Basketball" onClick={Scroll} className='l'>
+            <Link to="/basketball" onClick={Scroll} className='l'>
                 <img src={Basketball} className= "limg" alt=" " width="30px"/>Basketball
             </Link>
          </Fade>
         </div>
         <div className="eventlinks">
          <Fade right duration={1800}>
-            <Link to="/Volleyball" onClick={Scroll} className='l'>
+            <Link to="/volleyball" onClick={Scroll} className='l'>
                 <img src={Volleyball} className= "limg" alt="" width="30px"/>Volleyball
             </Link>
          </Fade>
