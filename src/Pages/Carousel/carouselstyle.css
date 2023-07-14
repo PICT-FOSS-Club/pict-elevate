@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Coustard&display=swap');
+.CarouselHead
+{
+  font-size: 3rem;
+  font-family: 'Coustard',serif;
+  display: flex;
+  justify-content: center;
+  color: yellow;
+  text-shadow: 0 3px red;
+}
+.carohead
+{
+  color: yellow;
+  position: relative;
+  bottom: -30px;
+  text-shadow: 0 0 3px red;
+  font-weight: bold; 
+}
+.caropara
+{
+  position: relative;
+  bottom: -20px;
+  font-weight: bold;
+}
+img{
+  object-fit: contain;
+}
+@media screen and (max-width: 510px)
+{
+  .CarouselHead
+  {
+    font-size: 35px;
+    text-shadow: 0 2px red;
+  }
+}
+  
+
+
+  /*image: 'https://www.linkpicture.com/q/Director.png',
+  image: 'https://www.linkpicture.com/q/stgandhe.jpg',
+  image: 'https://www.linkpicture.com/q/Ravi_Murumkar2_1.jpg',
+  image: 'https://www.linkpicture.com/q/WhatsApp-Image-2022-12-27-at-17.14.18-removebg-preview.jpg',*/

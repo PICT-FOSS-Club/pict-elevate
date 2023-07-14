@@ -1,0 +1,39 @@
+
+.pageloader
+{
+   top: 43vh; 
+   margin: auto;
+}
+/*
+@media screen and (max-width: 600px) {
+  .pageloader
+ {
+    top: 45vh;
+    left: 43vw;
+ }
+  
+}
+@media screen and (max-width: 500px) {
+  .pageloader
+ {
+    top: 45vh;
+    left: 40vw;
+ }
+  
+}
+@media screen and (max-width: 400px) {
+  .pageloader
+ {
+    top: 42vh;
+    left: 39vw;
+ }
+  
+}
+@media screen and (max-width: 310px) {
+  .pageloader
+ {
+    top: 40vh;
+    left: 32vw;
+ }
+  
+} */

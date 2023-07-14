@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coustard&display=swap');
+.body
+{
+    background-size: cover;
+    background: #0a0a0a;
+    /* height: auto; */
+    overflow-x: hidden;
+}
+
+.ArrowBox
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.arrowimg
+{
+    width: 100px;
+    position: relative;
+    margin: -25px;
+
+}
+
+.ArrowBox:hover
+{
+    transform: translateY(30px);
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+
+/* Events */
+.EventBox
+{
+    display: flex;
+    margin: 80px 50px;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 0px 20px orange;
+    padding: 20px;
+    border-radius: 30px;
+}
+.EveHeader
+{
+    font-size: 3rem;
+    font-family: 'Coustard', serif;
+    text-align: center;
+    color: yellow;
+    margin-top: 3rem;
+    text-shadow: 0 3px rgb(229, 7, 7);
+}
+.EventBox .Events
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-evenly;
+    flex-wrap: wrap;
+}
+
+.eventlinks
+{
+    color: aliceblue;
+    font-size: 30px;
+    margin: 10px;
+
+}
+
+.eventlinks .l:hover 
+{
+    box-shadow: 8px 8px 30px rgb(255, 89, 28);
+    color: rgb(255, 236, 27);
+    transition: 0.3s ease;
+    border: 2px solid orange;
+    opacity: 1;
+}
+
+/* Carousel */
+.Carousel
+{
+    margin: 60px auto;
+}
+  
+
+.containe1
+{
+    display : flex;
+    justify-content: center;
+    padding-top: 20vh;
+}
+
+.content
+{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.content .contimg
+{
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+}
+.content .mainhead
+{
+    text-align: center;
+}
+.content h1{
+    color: yellow;
+    font-size: 45px;
+    text-shadow: 0 3px rgb(229, 7, 7);
+    font-size: 40px;
+}
+
+.content .span
+{
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 10px;
+    
+}
+.content .heading
+{
+    color: yellow;
+    text-shadow: 0 4px red;
+    font-family: 'Rye', cursive;
+    font-size: 5rem;
+}
+
+
+/* Date Section */
+.datesection
+{
+    display: flex;
+    width: 30vw;
+    justify-content: space-evenly;
+    margin: auto;
+
+}
+
+.datesection .datebox
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    border: 2px ridge yellow;
+    padding: 8px;
+    border-radius: 15px;
+    
+}
+
+.datesection .datebox .dates
+{
+    margin: 10px;
+    color: rgb(255, 255, 0);
+    font-size: 2rem;
+    text-shadow: 0 2px rgb(255, 6, 6);
+    font-family: 'Rye',cursive;
+}
+.datesection .datetext
+{
+    font-family: 'Rye',cursive;
+    display: flex;
+    margin: 40px 10px;
+    color: rgb(241, 245, 7);
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.datebox .textspan
+{
+    color: yellow;
+    text-shadow: 0 2px rgb(255, 6, 6);
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Rye',cursive;
+}
+
+/* Video Section Start */
+.vidsection
+{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 60%;
+    padding: 10px;
+    margin: 30px auto ;
+    box-shadow: 0 0 10px orange;
+}
+/* Video Section ends */
+
+/* Sponsor Section Start */
+.SponsorSect
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 20px;
+    margin: 25vh auto;
+    border-radius: 1.5rem;
+    border: 2px ridge rgb(126, 126, 9);
+    width: 70%;
+
+}
+.SponsorSect:hover
+{
+    box-shadow: 0 0 15px rgb(240, 158, 36);
+    transform: scale(1.02);
+    transition: 0.3s all ease;
+}
+.SponsorSect h2
+{
+    color: yellow;
+    font-family: 'Coustard', serif;
+    font-size: 2.3rem;
+    padding-bottom: 20px;
+    text-shadow: 0 2px red;
+}
+.SponsorSect .sponsbox
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+.spimg
+{
+    width: 20vw;
+    margin: 10px;
+    height: 50%;
+    object-fit: contain;
+}
+
+/* Brochure Section starts */
+.Brochure
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Brochure .dwnlink
+{
+    text-decoration: none;
+    color: rgb(38, 182, 221);
+}
+.Brochure .dwnimg
+{
+    margin: 8px;
+}
+.Brochure .brochureimg
+{
+    width: 150px;
+    height: 200px;
+    margin: 10px;
+}
+
+/* Brochure Section ends */
+
+/* Sponsor Section ends */
+.Location
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Coustard', serif;
+    position: relative;
+    padding-bottom: 80px;
+    margin-top: 5rem;
+}
+
+.Location .map
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem;
+}
+#btn
+{
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes pulse {
+    from
+    {
+        box-shadow: 0 0 30px 10px aqua;
+        transition: 0.3s all ease;
+    }
+    to
+    {
+        box-shadow: 0 0 10px 2px rgb(8, 69, 234);
+        transition: 0.3s all ease;
+    }
+}
+
+.endbtn
+{
+    padding: 8px;
+    color: rgb(38, 182, 221);
+    border: 2px solid rgb(11, 176, 227);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    background: transparent;
+    border-radius: 20px;
+}
+
+.endbtn:hover
+{
+    animation: pulse 1s linear;
+    color: aqua;
+}
+
+@media screen and (min-width: 1600px){
+   .Carousel
+   {
+       margin: 60px auto;
+       width: 600px;
+   }  
+}
+@media screen and (max-width: 999px)
+{
+    .SponsorSect .sponsbox
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .spimg 
+    {
+        margin: 10px;
+        width: 20vw;
+        height: 60%;
+    }
+}
+@media screen and (max-width: 865px)
+{
+    .content h1
+    {
+        font-size: 30px;
+    }
+    .content .span
+    {
+        font-size: 23px;
+
+    }
+    .SponsorSect .sponsbox
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .spimg 
+    {
+        margin: 10px;
+        width: 20vw;
+        height: 60%;
+    }
+    .content .heading
+    {
+        font-size: 4.3rem;
+    }
+    .vidsection
+    {
+        width: 80%;
+        height: auto;
+    }
+    .map iframe
+    {
+        width: 500px;
+        height: 350px;
+    }
+    
+}
+@media screen and (max-width: 545px)
+{
+    .map iframe
+    {
+        width: 440px;
+        height: 300px;
+    }
+    .SponsorSect .sponsbox
+    {
+        
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .SponsorSect .sponsbox a .spimg
+    {
+        width: 40%;
+        height: 40%;
+    }
+
+}
+@media screen and (max-width: 510px)
+{
+    .content h1
+    {
+        font-size: 26px;
+
+    }
+    .content .heading
+    {
+        font-size: 3.1rem;
+    }
+    .content .span
+    {
+        font-size: 24px;
+    }
+    .EveHeader
+    {
+        font-size: 32px;
+        margin-bottom: 18px;
+    }
+    .eventlinks
+    {
+        font-size: 20px;
+    }
+    .vidsection
+    {
+        width: 90%;
+        height: auto;
+    }
+    .SponsorSect .sponsbox a .spimg
+    {
+        width: 40%;
+        height: 40%;
+    }
+
+}
+@media screen and (max-width: 480px)
+{
+    .content h1
+    {
+        font-size: 28px;
+
+    }
+    .content .heading
+    {
+        font-size: 3.2rem;
+    }
+    .content .span
+    {
+        font-size: 26px;
+    }
+    .EveHeader
+    {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    .eventlinks
+    {
+        font-size: 20px;
+    }
+    .SponsorSect .sponsbox a .spimg
+    {
+        width: 80%;
+        height: 80%;
+    }
+    .map iframe
+    {
+        width: 370px;
+        height: 280px;
+    }
+}
+
+@media screen and (max-width: 385px)
+{
+    .content .heading
+    {
+        font-size: 2.6rem;
+    }
+    .content .span
+    {
+        font-size: 20px;
+    }
+    .map iframe
+    {
+        width: 340px;
+        height: 230px;
+    }
+    .content
+    {
+        padding-top: 2vh;
+    }
+    .SponsorSect .sponsbox a .spimg
+    {
+        width: 60%;
+        height: 60%;
+    }
+
+}
+@media screen and (max-width: 376px)
+{
+    .content
+    {
+        padding-top: 8vh;
+    }
+}
+@media screen and (max-width: 320px)
+{
+    .content .heading
+    {
+        font-size: 2.2rem;
+    }
+    .content .span
+    {
+        font-size: 16px;
+    }
+}
