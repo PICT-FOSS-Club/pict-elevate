@@ -1,0 +1,30 @@
+.btnn
+{
+    padding: 8px;
+    color: rgb(4, 4, 37);
+    border: 2px solid rgb(4, 4, 37);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 30px;
+    background: transparent;
+    border-radius: 20px;
+}
+
+.btnn:hover
+{
+    animation: pulse 1s linear;
+    color: aqua;
+}
+
+@keyframes pulse {
+    from
+    {
+        box-shadow: 0 0 30px 10px aqua;
+        transition: 0.3s all ease;
+    }
+    to
+    {
+        box-shadow: 0 0 10px 2px rgb(8, 69, 234);
+        transition: 0.3s all ease;
+    }
+}
