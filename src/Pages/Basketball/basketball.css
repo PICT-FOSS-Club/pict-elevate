@@ -1,0 +1,589 @@
+.page
+{
+    background-color: #0a0a0a;
+    background-size: cover;
+    height: calc(100%);
+    padding: 0.2rem;
+    padding-top: 25vh;
+}
+.btnn
+{
+    padding: 8px;
+    color: rgb(38, 182, 221);
+    border: 2px solid rgb(11, 176, 227);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 8px;
+    background: transparent;
+    border-radius: 20px;
+    position: relative;
+    top: 5;
+}
+
+.btnn:hover
+{
+    animation: pulse 1s linear;
+    color: aqua;
+}
+
+@keyframes pulse {
+    from
+    {
+        box-shadow: 0 0 30px 10px aqua;
+        transition: 0.3s all ease;
+    }
+    to
+    {
+        box-shadow: 0 0 10px 2px rgb(8, 69, 234);
+        transition: 0.3s all ease;
+    }
+}
+
+.containee1
+{
+    display : flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0.5rem 1rem;
+}
+
+.contentt
+{
+    display: flex;
+    padding: 20px;
+    margin: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px ridge rgb(126, 126, 9);
+    border-radius: 2rem;
+    padding: 0.5rem;
+
+}
+
+.contentt .mainheadd
+{
+    text-align: center;
+}
+.contentt h1{
+    color: yellow;
+    font-size: 45px;
+    text-shadow: 0 3px rgb(229, 7, 7);
+    font-size: 40px;
+}
+
+.span
+{
+    color: aliceblue;
+    font-size: 30px;
+    padding-bottom: 10px;
+    
+}
+.orange
+{
+    color: orange;
+}
+.spann
+{
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+.headingg
+{
+    color: yellow;
+    text-shadow: 0 4px red;
+    font-family: 'Rye', cursive;
+    font-size: 5rem;
+    margin: 1rem auto;
+}
+
+/* Venue block starts */
+.Venue
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 2px solid rgb(126, 126, 9);
+    box-shadow: 0 0 3px yellow;
+    border-radius: 2rem;
+    width: 55%;
+    margin: 40px auto;
+    
+}
+.Venue:hover
+{
+    box-shadow: 0 0 20px yellow;
+    border: 2px solid transparent;
+    transition: 0.4s all ease;
+}
+.vhead
+{
+    font-size: 2rem;
+    background: yellow;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    margin: 25px auto;
+    border-radius: 1.3rem;
+    padding: 5px 8px;
+    width: calc();
+}
+.vpara
+{
+    margin: 10px auto;
+    color: aliceblue;
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 0.5rem;
+}
+/* Venue block ends */
+
+/* Registration Fees block starts */
+.Regfees
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    width: calc();
+    margin: 20px 10px;
+    flex-direction: column;
+    border: 2px solid  rgb(126, 126, 9);
+    box-shadow: 0 0 3px yellow;
+    border-radius: 2rem;
+}
+.Regfees:hover
+{
+    box-shadow: 0 0 20px yellow;
+    border: 2px solid transparent;
+    transition: 0.4s all ease;
+}
+.head
+{
+    font-size: 2rem;
+    background: yellow;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    margin: 25px auto;
+    border-radius: 1.3rem;
+    padding: 8px 10px;
+
+}
+.Reghead
+{
+    margin-top: 20px;
+    color: aliceblue;
+}
+.feesSect
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.fees
+{
+    color: yellow;
+    font-size: 1.8rem;
+    text-shadow: 0 1px red;
+}
+
+.Regfees .feesimg
+{
+    width: 50px;
+    margin: 1rem;
+}
+.Regfees .fees span
+{
+    color: aliceblue;
+    padding-right: 10px ;
+}
+.Regfees .feesC span
+{
+    color: aliceblue;
+    padding-right: 10px ;
+}
+/* Registration Fees block ends */
+
+
+/* Registration Link starts */
+.Regbtn
+{
+    display: flex;
+    justify-content: center;
+}
+
+.Regbtn .regbtn
+{
+    padding: 8px;
+    color: rgb(38, 182, 221);
+    border: 2px solid rgb(11, 176, 227);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 30px;
+    background: transparent;
+    border-radius: 20px;
+
+}
+
+.Regbtn .feesimg
+{
+    animation: frontback 0.8s infinite;
+}
+
+.Regbtn .regbtn:hover
+{
+    animation: pulse 1s linear;
+    color: aqua;
+}
+
+@keyframes frontback {
+    from
+    {
+        transform: translateX(0);
+        transition: 0.3s all ease;
+    }
+    to
+    {
+        transform: translateX(20px);
+        transition: 0.3s all ease;
+    }
+}
+/* Registration Link ends*/
+
+/* Prize Section starts */
+.prizeSect
+{
+    text-align: center;
+    color: aliceblue;
+    font-size: 1.8rem;
+    margin: 10px;
+    padding: 10px;
+}
+
+.prizeSect .prize
+{
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: yellow;
+    text-shadow: 0 3px rgb(255, 4, 4);
+}
+
+@keyframes move {
+    from
+    {
+        transform: rotate(30deg);
+        transition: 0.3s all ease;
+    }
+    to
+    {
+        transform: scale(1.5);
+        transition: 0.3s all ease;
+    }
+}
+
+.prizeSect .trophy
+{
+    margin: 10px;
+    animation: move 2s infinite;
+}
+/* Prize Section ends */
+
+/* Note Section starts */
+.noteSect
+{
+    display: flex;
+    margin: 40px auto;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.noteSect .notehead
+{
+    color: red;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-right: 12px;
+    font-family: 'Rye', cursive;
+}
+
+.noteSect .notepara
+{
+    color: aliceblue;
+    text-align: center;
+    font-size: 1.4rem;
+}
+/* Note Section ends */
+
+#btn
+{
+    display: flex;
+    justify-content: center;
+}
+
+.endbtn
+{
+    padding: 8px;
+    color: rgb(38, 182, 221);
+    border: 2px solid rgb(11, 176, 227);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    background: transparent;
+    border-radius: 20px;
+}
+
+.endbtn:hover
+{
+    animation: pulse 1s linear;
+    color: aqua;
+}
+
+/* Contact Section starts */
+.contactSect
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 0 10px yellow;
+    padding: 8px 10px;
+    border-radius: 12px;
+    margin: 10px;
+
+}
+.contactSect .contacts
+{
+    color: rgb(145, 145, 13);
+    font-size: 1.3rem;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contactSect .contacts span
+{
+    color: aliceblue;
+    font-weight: normal;
+    margin-left: 8px;
+}
+/* Contact Section ends */
+
+.Carousel
+{
+    margin: 60px 20vw;
+}
+
+@media screen and (max-width: 1300px)
+{
+    .contentt h1
+    {
+        font-size: 30px;
+    }
+    .span
+    {
+        font-size: 23px;
+    }
+    .spann
+    {
+        font-size: 23px;
+    }
+    .headingg
+    {
+        font-size: 4.3rem;
+    }
+    .Carousel
+    {
+        margin: 60px 3vw;
+    }
+    .fees
+    {
+        color: yellow;
+        font-size: 1.6rem;
+        text-shadow: 0 1px red;
+    }
+}
+
+@media screen and (max-width: 800px)
+{
+    .Carousel
+    {
+        margin: 60px 1vw;
+    }
+}
+@media screen and (max-width: 545px)
+{
+    .vhead
+    {
+        font-size: 1.5rem;
+    }
+    .vpara
+    {
+        font-size: 1.3rem;
+    }
+    .head
+    {
+        font-size: 1.5rem;
+    }
+    .fees
+    {
+        font-size: 1.4rem;
+    }
+    .fees
+    {
+        color: yellow;
+        font-size: 1.4rem;
+        text-shadow: 0 1px red;
+    }
+}
+@media screen and (max-width: 510px)
+{
+    .contentt h1
+    {
+        font-size: 26px;
+
+    }
+     .headingg
+    {
+        font-size: 3.1rem;
+    }
+    .span
+    {
+        font-size: 24px;
+    }
+    .spann
+    {
+        font-size: 24px;
+    }
+    .prizeSect
+    {
+        font-size: 1.4rem;
+    }
+    .fees
+    {
+        color: yellow;
+        font-size: 1.4rem;
+        text-shadow: 0 1px red;
+    }
+    .prizeSect
+    {
+        font-size: 1.2rem;
+    }
+    .noteSect .notehead
+    {
+        font-size: 1.4rem;
+    }
+    .notepara
+    {
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 480px)
+{
+    .contentt h1
+    {
+        font-size: 28px;
+
+    }
+    .headingg
+    {
+        font-size: 3.2rem;
+    }
+    .span
+    {
+        font-size: 26px;
+    }
+    .spann
+    {
+        font-size: 26px;
+    }
+    .Carousel
+    {
+        margin: 60px 10px;
+    } 
+    .fees
+    {
+        color: yellow;
+        font-size: 1.2rem;
+        text-shadow: 0 1px red;
+    }
+}
+
+@media screen and (max-width: 385px)
+{
+    .headingg
+    {
+        font-size: 2.6rem;
+    }
+    .span
+    {
+        font-size: 20px;
+    }
+    .spann
+    {
+        font-size: 20px;
+    }
+    .Carousel
+    {
+        margin: 60px 10px;
+    }
+    .fees
+    {
+        color: yellow;
+        font-size: 1.2rem;
+        text-shadow: 0 1px red;
+    } 
+}
+@media screen and (max-width: 350px)
+{
+    .headingg
+    {
+        font-size: 2.4rem;
+    }
+    .span
+    {
+        font-size: 18px;
+    }
+    .spann
+    {
+        font-size: 18px;
+        padding: 10px;
+    }
+    .Carousel
+    {
+        margin: 60px 10px;
+    }
+    .fees
+    {
+        color: yellow;
+        font-size: 1.1rem;
+        text-shadow: 0 1px red;
+    } 
+}
+@media screen and (max-width: 320px)
+{
+    .headingg
+    {
+        font-size: 2.2rem;
+    }
+    .span
+    {
+        font-size: 16px;
+    }
+    .spann
+    {
+        font-size: 16px;
+    }
+    .Carousel
+    {
+        margin: 60px 10px;
+    } 
+    .fees
+    {
+        color: yellow;
+        font-size: 1rem;
+        text-shadow: 0 1px red;
+    }
+}
